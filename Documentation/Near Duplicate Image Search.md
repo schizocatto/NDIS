@@ -22,16 +22,16 @@ The core problem in NDIS is:
 
 Below are a few cases of near duplicate images from various datasets.
 
-![[Pasted image 20250607015354.png]]
+![[Figure 1.png]]
 <p align="center">Figure 1. Examples of near duplicate images from INRIA Copydays dataset</p>
 
-![[Pasted image 20250607015622.png]]
+![[Figure 2.png]]
 <p align="center">Figure 2. Examples of near-duplicate images from California ND dataset</p>
-![[Pasted image 20250607015720.png]]
+![[Figure 3.png]]
 <p align="center">Figure 3. Example of near-duplicate image (visually similar)</p>
-![[Pasted image 20250607015802.png]]
+![[Figure 4.png]]
 <p align="center">Figure 4. Near-duplicate image created by rotation</p>
-![[Pasted image 20250607015842.png]]
+![[Figure 5.png]]
 <p align="center">Figure 5. Near-duplicate images with viewpoint and illumination change</p>
 
 This problem is challenging due to:
@@ -48,7 +48,7 @@ The steps followed in the detection of near-duplicate images are generally quite
 
 The features of the query image are extracted and compared with the feature vectors of all images already stored in the database. If matches are found, they are marked as near-duplicate/ visually similar images. This approach requires an efficient indexing structure to search for similar descriptors in the database. The percentage of similarity required is fixed by a reference value. Some of the methods used for the detection of near-duplicate images are presented in the next section.
 
-![[Pasted image 20250607020023.png]]
+![[Figure 6.png]]
 <p align="center">Figure 6. General block diagram for identifying near-duplicate images</p>
 
 ## Feature extraction methods for near duplicate detection
