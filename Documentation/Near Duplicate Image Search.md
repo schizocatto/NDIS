@@ -81,3 +81,9 @@ SURF (Speeded Up Robust Features) is a scale and rotation-invariant detector. It
 
 ND image retrieval is to find all the images that are near duplicates to a particular query. A major challenge in the image retrieval is building effective features that are invariant to a wide range of variations. Near-duplicate retrieval is used for the management of multimedia contents. Search speed is a key factor to judge any near duplicate retrieval algorithm. Not only the retrieval time but also maintaining the relevance of returned results is important in image retrieval.
 
+# References
+
+K. K. Thyagharajan, G. Kalaiarasi. [A Review on Near Duplicate Detection of Images using Computer Vision Techniques](https://arxiv.org/abs/2009.03224)
+Ebrahim Karami, Siva Prasad, and Mohamed Shehata. [Image Matching Using SIFT, SURF, BRIEF and ORB: Performance Comparison for Distorted Images](https://arxiv.org/pdf/1710.02726)
+David G. Lowe [Object Recognition from Local Scale-Invariant Features](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)
+Herbert Bay, Tinne Tuytelaars, and Luc Van Gool. 2006. SURF: speeded up robust features. In Proceedings of the 9th European conference on Computer Vision - Volume Part I (ECCV'06). Springer-Verlag, Berlin, Heidelberg, 404–417. https://doi.org/10.1007/11744023_32
